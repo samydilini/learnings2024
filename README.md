@@ -9,15 +9,14 @@ Running
 - Run 
 `./gradlew bootRun`
 
-curl http://localhost:8080/myenpoint
 
-
--Docker
-`docker build -t dockerfile .`
-
-docker run -p 8081:8080 dockerfile
+Docker
+-build
+`docker-compose build`
+-start
+`docker-compose up --build`
 
 with docker
-curl http://localhost:8081/myenpoint
+curl http://localhost:8081/myendpoint
 
 

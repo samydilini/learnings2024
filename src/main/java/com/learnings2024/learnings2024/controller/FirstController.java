@@ -5,8 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class FirstController{
-    @GetMapping("/myenpoint")
+    @GetMapping("/myendpoint")
     public String home() {
+        return "Hello Docker World";
+    }
+
+    @GetMapping("/")
+    public String empty() {
         return "Hello Docker World";
     }
 }
