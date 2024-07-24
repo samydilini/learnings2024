@@ -15,6 +15,8 @@ Docker
 `docker-compose build`
 -start
 `docker-compose up --build`
+-remove
+`docker-compose down`
 
 with docker
 curl http://localhost:8081/myendpoint
