@@ -27,6 +27,6 @@ docker network prune -f
 
 
 with docker
-curl http://localhost:8081/myendpoint
+curl http://localhost:8081/users
 
 
