@@ -11,10 +11,13 @@ Running
 
 
 Docker
+
 -build
 `docker-compose build`
+
 -start
 `docker-compose up --build`
+
 -remove
 `docker-compose down`
 or 
@@ -22,6 +25,7 @@ or
 or 
 `docker-compose down --rmi all --volumes`
 
+other supportive commands
 docker volume prune -f
 docker network prune -f  
 
